@@ -41,3 +41,4 @@ yarn start
 ```
 
 Open the browser in `localhost:3000` and you must see a chart being updated every second.
+# tradin-ap
