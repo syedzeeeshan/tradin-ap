@@ -82,7 +82,7 @@ function App() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    const ws = new WebSocket("https://tradin-ap.onrender.com/ws");
+    const ws = new WebSocket("https://tradin-ap.onrender.com/");
 
     ws.onopen = () => console.log("✅ Connected");
 
