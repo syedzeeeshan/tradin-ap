@@ -44,7 +44,7 @@ function News({ news }) {
 
   return (
     <div style={{ marginTop: "40px" }}>
-      <h2 style={{ marginBottom: "20px" }}>📰 Market News</h2>
+      <h2 style={{ marginBottom: "20px" }}> Market News</h2>
 
       {news.map((item, index) => {
         const color =
@@ -82,7 +82,7 @@ function App() {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    const ws = new WebSocket("ws://127.0.0.1:8000/ws");
+    const ws = new WebSocket("https://tradin-ap.onrender.com/ws");
 
     ws.onopen = () => console.log("✅ Connected");
 
